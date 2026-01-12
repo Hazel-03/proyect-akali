@@ -1,0 +1,147 @@
+header{
+    width: 100%;
+    background-color: #262525;
+    article{
+        display: flex;
+        align-items: center;
+        gap: 15%;
+    }
+    svg {
+        cursor: pointer;
+    }
+
+    h4{
+        color: #fff;
+        cursor: pointer;
+    }
+    h4:hover {
+        color: #FF2600;
+    }
+
+    i{
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    img{
+        width: 200px;
+        background-color: #262525;
+    }
+}
+
+main{
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+    background-color: #080808;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+
+    article{
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        text-align: left;
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .titulo-fondo{
+        margin: 30px auto;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+        
+        &::before{
+            content: "";
+            top: 0; left: 0; right: 0; bottom: 0;
+            position: absolute;
+            background-image: url(../icons/dragón\ de\ akali.jpg);
+            background-position: center;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .titulo{
+            position: relative;
+            z-index: 2;
+        }
+    }
+    
+    .fondo{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url(../icons/Akali_0.jpg);
+            background-position-y: 25%;
+            background-size: cover;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .texto{
+            position: relative;
+            z-index: 2;
+            padding: 200px;
+            text-align: center;
+
+            #nombre{
+                padding: 10px;
+                font-size: 100px;
+            }
+            
+            #alias{
+                padding: 20px;
+                color: #CFBD3E;
+            }
+        }
+    }
+
+    .Skins{
+        padding: 50px;
+    }
+
+    .carousel {
+    width: 800px;
+    margin: 50px auto;
+    
+        img{
+        width: 800px;
+        height: 500px;
+        }
+
+        p{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: #4b4a4a;
+    width: 100%;
+    padding: 35px;
+
+    a{
+        color: #fff;
+        text-decoration: none;
+        margin: 10px;
+        padding: 5px;
+    }
+    p{
+        opacity: 50%;
+        margin: 10px;
+    }
+}

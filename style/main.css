@@ -1,0 +1,136 @@
+@charset "UTF-8";
+header {
+  width: 100%;
+  background-color: #262525;
+}
+header article {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+header svg {
+  cursor: pointer;
+}
+header h4 {
+  color: #fff;
+  cursor: pointer;
+}
+header h4:hover {
+  color: #FF2600;
+}
+header i {
+  cursor: pointer;
+  display: inline-block;
+}
+header img {
+  width: 200px;
+  background-color: #262525;
+}
+
+main {
+  width: 100%;
+  color: #fff;
+  padding: 30px;
+  background-color: #080808;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+main article {
+  width: 100%;
+  text-align: center;
+}
+main p {
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+main .titulo-fondo {
+  margin: 30px auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+main .titulo-fondo::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-image: url(../icons/dragón\ de\ akali.jpg);
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+main .titulo-fondo .titulo {
+  position: relative;
+  z-index: 2;
+}
+main .fondo {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+main .fondo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../icons/Akali_0.jpg);
+  background-position-y: 25%;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}
+main .fondo .texto {
+  position: relative;
+  z-index: 2;
+  padding: 200px;
+  text-align: center;
+}
+main .fondo .texto #nombre {
+  padding: 10px;
+  font-size: 100px;
+}
+main .fondo .texto #alias {
+  padding: 20px;
+  color: #CFBD3E;
+}
+main .Skins {
+  padding: 50px;
+}
+main .carousel {
+  width: 800px;
+  margin: 50px auto;
+}
+main .carousel img {
+  width: 800px;
+  height: 500px;
+}
+main .carousel p {
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #4b4a4a;
+  width: 100%;
+  padding: 35px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+}
+footer p {
+  opacity: 50%;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */
