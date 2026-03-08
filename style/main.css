@@ -11,6 +11,9 @@ header article {
 header svg {
   cursor: pointer;
 }
+header a {
+  text-decoration: none;
+}
 header h4 {
   color: #fff;
   cursor: pointer;
