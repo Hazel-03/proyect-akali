@@ -13,6 +13,7 @@ header svg {
 }
 header a {
   text-decoration: none;
+  color: inherit;
 }
 header h4 {
   color: #fff;
